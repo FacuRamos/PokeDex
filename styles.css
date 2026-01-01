@@ -139,3 +139,18 @@ button{
 .pokemon:hover .imagenPokemon{
     scale: 0.7;
 }
+
+
+
+/*---------------------------RESPONSIVE--------------------*/
+
+
+@media (max-width: 968px) {
+    ul{
+        flex-direction: column;
+        align-self: center;
+
+        gap: 10px;
+        width: 70%;
+    }
+}
